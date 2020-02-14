@@ -17,7 +17,7 @@
   "main": "src/app/main.js",
   "dependencies": {
     "bulma": "^0.7.1",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.15",
     "uuid": "^3.2.1",
     "vee-validate": "^2.1.0-beta.1",
     "vue": "^2.5.2",
@@ -60,7 +60,7 @@
     "jest": "^23.0.0",
     "jest-serializer-vue": "^0.3.0",
     "node-notifier": "^5.1.2",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
     "portfinder": "^1.0.13",
@@ -79,7 +79,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": "^2.11.5",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
