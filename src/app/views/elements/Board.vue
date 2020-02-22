@@ -9,8 +9,8 @@
       </div>
       <div class="lists-container">
         <Container
-          lock-axis="x"
-          orientation="horizontal"
+          lock-axis="y"
+          orientation="vertical"
           drag-handle-selector=".list-drag-handle"
           @drop="onListDrop"
         >
@@ -197,7 +197,7 @@ export default {
   $column-width: 320px;
 
   .list-container {
-    width: $column-width;
+  // width: $column-width;
     padding: 10px;
     margin: 5px;
     margin-right: 20px;
@@ -207,7 +207,9 @@ export default {
 
   .lists-container {
     > * {
-      display: inline-block;
+    display: grid;
+    grid-template-columns: fit-content;
+    // display: inline-block;
       vertical-align: top;
     }
   }
