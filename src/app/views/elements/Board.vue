@@ -1,13 +1,13 @@
 <template>
   <div class="board-container">
     <div class="board">
-
       <div class="clear-button">
         <ui-button :disabled="lists.length === 0" @click="reset">Reset</ui-button>
       </div>
-
+      <div class="new-list">
+        <ui-item-entry placeholder="Add a list" @enter="onAddList" />
+      </div>
       <div class="lists-container">
-
         <Container
           lock-axis="x"
           orientation="horizontal"
